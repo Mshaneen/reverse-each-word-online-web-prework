@@ -1,5 +1,6 @@
 def reverse_each_word("string" = string)
-  string.each do |string|
+  string.collect do |string|
     .reverse
   end
 end
+
